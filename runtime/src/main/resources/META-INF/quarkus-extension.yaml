@@ -1,0 +1,11 @@
+name: My Extension
+description: Offers my best-in-class service
+artifact: ${project.groupId}:${project.artifactId}:${project.version}
+metadata:
+  keywords:
+    - YourKeyword
+  categories:
+    - "Experimental"
+  status: "experimental"
+  config:
+    - "my-extension"
