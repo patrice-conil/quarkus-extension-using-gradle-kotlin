@@ -6,6 +6,6 @@ import java.net.URI
 @ConfigMapping(prefix = "my-extension")
 interface MyConfig {
     fun uri(): URI
-    fun username(): String?
-    fun password(): String?
+    fun username(): String
+    fun password(): String
 }
