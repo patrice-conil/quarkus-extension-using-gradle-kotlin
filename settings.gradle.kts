@@ -55,4 +55,4 @@ pluginManagement {
 }
 
 rootProject.name = "my-extension"
-include("runtime", "deployment", "usage-sample")
+include("runtime", "deployment", "integration-tests")
